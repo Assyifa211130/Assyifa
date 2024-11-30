@@ -1,0 +1,44 @@
+.atas {
+    text-align: center;
+    background-color: lightpink;
+}
+
+.as {
+    background-color: skyblue;
+} 
+
+.article {
+    text-align: center;
+    padding-top: 13%;
+}
+
+#hrf1 {
+    text-align: center;
+    padding-top: 100%;
+}
+
+#k1 {
+    background-color: greenyellow;
+    height: 400px;
+    width: 400px;
+    margin: 1%;
+}
+
+#k2 {
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    margin: 1%;
+}
+
+#k3 {
+    background-color: greenyellow;
+    height: 400px;
+    width: 400px;
+    margin: 1%;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}

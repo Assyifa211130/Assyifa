@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>login</h2>
+    <from>
+        <label for="unsername"> Unsername :</label>
+        <input type="text" id="unsername" name="unsername" required>
+        <br><br>
+        <label for="unsername"> password :</label>
+        <input type="text" id="password" name="password" required>
+        <br><br>
+        <button type="submit" value="login"></button>
+        <button type="reset" value="reset"></button>
+    </from>
+    
+    <!--Program Javasript-->
+    <script>
+        function login(){
+            let user = document.getELemenTBYId["unsername"].value;
+            let pass = document.getELemenTBYId["password"].value;
+            let from = document.getELemenTBYId["loginfrom"];
+
+            if(unser == "assyifa"&& pass == "12345"){
+                 alert("Login Berhasil ");
+                 from.setAttribute("action","/pertemuan10/no1.html ")
+            }else{
+                alert("login gagal, coba lagi")
+            }
+        }
+        
+    </script>
+</body>
+</html>
